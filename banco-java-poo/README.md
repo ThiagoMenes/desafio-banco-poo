@@ -1,0 +1,1 @@
+Inicio abstração Banco
