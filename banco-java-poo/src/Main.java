@@ -6,8 +6,12 @@ public class Main {
         contaCorrente.depositar(100);
         Conta poupanca = new ContaPoupança(thiago);
         contaCorrente.transferir(poupanca, 15);
+        Banco banco = new Banco();
+        banco.setNome("Bradesco");
 
         contaCorrente.imprimirExtrato();
         poupanca.imprimirExtrato();
+
+        banco.listarContas();
     }
 }
